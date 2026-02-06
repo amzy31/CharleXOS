@@ -42,22 +42,11 @@ The kernel includes features like:
 
 ## Building and Running
 
-### Prerequisites
+### TOOLS:
 - GCC compiler
 - NASM assembler
 - GRUB tools
 - xorriso for ISO creation
-
-### On Debian/Ubuntu
-Install dependencies:
-```bash
-make deps
-```
-
-Build the ISO:
-```bash
-make mkiso
-```
 
 Run the OS using a virtual machine or boot from the generated `charleX.iso`.
 
@@ -79,22 +68,22 @@ Building CharleX OS on Windows 10 requires using Windows Subsystem for Linux (WS
 1. **Clone or Download the Repository**:
    - Open PowerShell.
    - Navigate to where you want to put the project (e.g., `cd C:\Users\YourName\Desktop`).
-   - Run: `git clone https://github.com/your-repo/charlex-os-ng.git` (replace with the actual repo URL).
+   - Run: `git clone https://github.com/your-repo/CharleXOS.git` (replace with the actual repo URL).
    - Or download the ZIP from GitHub and extract it.
 
 2. **Navigate to the Project Folder**:
-   - In PowerShell, go to the project folder: `cd path\to\charlex-os-ng` (replace with your actual path).
+   - In PowerShell, go to the project folder: `cd path\to\CharleXOS` (replace with your actual path).
 
 3. **Install Dependencies**:
-   - Run: `.\build.ps1 -Target deps`
+   - Run: `powershell -ExecutionPolicy Bypass -File .\build.ps1 -Target deps`
    - This will update packages and install build tools in WSL. It might ask for your Ubuntu password (the one you set during WSL setup). If it fails, make sure WSL is installed and try again.
 
 4. **Build the ISO**:
-   - Run: `.\build.ps1 -Target mkiso`
+   - Run: `powershell -ExecutionPolicy Bypass -File .\build.ps1 -Target mkiso`
    - This compiles the code and creates `charleX.iso`. It should complete without errors if dependencies are installed.
 
 5. **Clean Up (Optional)**:
-   - To remove build files (.bin and .o), run: `.\build.ps1 -Target clean`
+   - To remove build files (.bin and .o), run: `powershell -ExecutionPolicy Bypass -File .\build.ps1 -Target clean`
 
 #### Running the OS
 - Use a virtual machine like VirtualBox or VMware to boot from `charleX.iso`.
