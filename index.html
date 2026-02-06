@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharleX OS - Hackeristic UI</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            text-align: center;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        .logo {
+            text-align: center;
+            white-space: pre;
+            font-size: 12px;
+            margin: 20px 0;
+        }
+        .description {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+        .download-btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00ff00;
+            color: #000000;
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid #00ff00;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #000000;
+            color: #00ff00;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CharleX OS</h1>
+    <div class="logo">
+                  %%  %%                      %%  %%
+                 %%      %%                  %%      %%
+                 %%        %%              %%        %%
+                 %%          %%%%%%%%%%%%%%          %%
+                 %%                                  %%
+                 %%                                  %%
+               %%        %%%%              %%%%        %%
+             %%          %%%%%%          %%%%%%          %%
+             %%                                          %%
+             %%                  %%%%%%                  %%
+             %%            %%      %%      %%            %%
+               %%            %%%%%%%%%%%%%%            %%
+                %%                                    %%
+                   %%                              %%
+                     %%%%%%%%              %%%%%%%%
+                             %%%%%%%%%%%%%%
+    </div>
+    <div class="description">
+        <h2>Description</h2>
+        <p>CharleX OS is a minimal, open-source operating system kernel written primarily in C with assembly components. It provides a basic terminal interface in VGA text mode, supporting keyboard input for a simple command-line experience. This project serves as an educational platform for understanding low-level OS development.</p>
+        <p>The kernel includes features like:</p>
+        <ul>
+            <li>VGA text mode initialization and output</li>
+            <li>Keyboard input handling with support for basic keys (enter, backspace, arrows, etc.)</li>
+            <li>A simple shell-like prompt for user interaction</li>
+            <li>Bootloader integration with GRUB</li>
+        </ul>
+        <h2>Download ISO</h2>
+        <p>Download the latest CharleX OS ISO from GitHub:</p>
+        <a href="https://github.com/amzy31/CharleXOS/raw/master/charleX.iso" class="download-btn" download>Download charleX.iso</a>
+    </div>
+    <div class="footer">
+        <p>CharleX OS is licensed under the MIT License. Contributions are welcome!</p>
+        <p>GitHub: <a href="https://github.com/amzy31/CharleXOS" style="color: #00ff00;">https://github.com/amzy31/CharleXOS</a></p>
+    </div>
+</body>
+</html>
