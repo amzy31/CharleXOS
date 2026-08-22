@@ -40,4 +40,3 @@ A fun web-based operating system simulation built with **Vanilla JavaScript** (n
 MIT - Feel free to fork and play around!
 
 © 2020-2025 AMZY31
-
