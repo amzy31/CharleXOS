@@ -2,8 +2,7 @@
 
 A fun web-based operating system simulation built with **Vanilla JavaScript** (no frameworks. I'm a ([Googler](https://g.dev/amzy31) who loves JavaScript for its simplicity and power in the browser.
 
-![screenshot](./screenshots/1.png)
-
+<img width="1536" height="672" alt="17874160503406413477811594829750" src="https://github.com/user-attachments/assets/55dccc81-cb54-4264-8641-f08132b7ed80" />
 
 ## Quick Start
 
@@ -17,7 +16,6 @@ A fun web-based operating system simulation built with **Vanilla JavaScript** (n
 - **Click dock icons** to open apps like Notes, CPU Monitor, Shell, etc.
 - **Take encrypted notes** and save/load them.
 - **Simulate a Linux shell** with basic commands.
-- **Toggle between macOS and Windows styles**.
 - **Power controls** (reboot, halt - simulated).
 - **File explorer** for your encrypted files.
 
